@@ -24,8 +24,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is my personal website where I'll write mostly about software development,
   Python, Elixir and Functional Programming.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pyropy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  pyropy
+pgp_key: "https://keys.openpgp.org/vks/v1/by-fingerprint/F26416279117CB1BF388EB5322B7A0ED6056B9DD"
 
 # Build settings
 theme: minima
