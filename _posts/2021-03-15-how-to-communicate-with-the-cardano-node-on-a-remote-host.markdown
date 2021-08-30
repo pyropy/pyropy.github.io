@@ -2,7 +2,7 @@
 layout: post
 title:  "How to communicate with the cardano node on a remote host"
 date:   2021-08-30 17:00:00 +0100
-categories: cardano docker devops blockchain aws
+categories: blockchain 
 ---
 
 ## Intro
