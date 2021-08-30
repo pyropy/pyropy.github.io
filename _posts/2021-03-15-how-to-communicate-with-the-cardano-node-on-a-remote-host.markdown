@@ -4,6 +4,7 @@ title:  "How to communicate with the cardano node on a remote host"
 author: Srdjan Stankovic 
 date:   2021-08-30 17:00:00 +0100
 categories: blockchain
+summary: This article talks about how to setup communication with the cardano node on a remote host.
 ---
 
 ## Intro
