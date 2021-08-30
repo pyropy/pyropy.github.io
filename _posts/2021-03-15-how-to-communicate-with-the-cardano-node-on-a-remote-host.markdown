@@ -46,8 +46,8 @@ In order to connect to the cardano node on a remote host, we should run followin
 socat UNIX-LISTEN:/path/to/local/node.socket,fork,reuseaddr,unlink-early, TCP:127.0.0.1:3333
 {% endhighlight %}
 
-**Note**: Replace `UNIX-LISTEN` value to some path on our local machine where we're going to hold our node.socket file and also replace `TCP` value with IP of your remote machine.
-If we now set `CARDANO_NODE_SOCKET_PATH` to the destination on our local machine we should be able to use cardano-cli without running cardano-node on our local machine.
+You should replace `UNIX-LISTEN` value to some path on our local machine where we're going to hold our `node.socket` file, and also replace `TCP` value with IP of your remote machine.
+If we now set `CARDANO_NODE_SOCKET_PATH` to the destination on our local machine we should be able to use cardano cli without running cardano node on our local machine.
 
 ## Conclusion
 
