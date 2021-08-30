@@ -1,5 +1,5 @@
 {% if page.tags %}
-<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+<meta name="keywords" content="{{ page.tags | join: ',' | escape }}"/>
 {% endif %}
 {% if page.image %}
   <meta property="og:image" content="{{ page.image }}">

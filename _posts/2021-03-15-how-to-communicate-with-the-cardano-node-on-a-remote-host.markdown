@@ -3,7 +3,7 @@ layout: post
 title:  "How to communicate with the cardano node on a remote host"
 author: Srdjan Stankovic 
 date:   2021-08-30 17:00:00 +0100
-tags: [blockchain,cardano,tcp,aws,devops,docker]
+tags: [blockchain,cardano,tcp,aws,devops,docker,nft,marketplace]
 image: "/assets/cardano.jpeg"
 summary: "Recently, while working on Cardano based NFT Marketplace Cardano Blue, my team and I had to come up with a way for our backend to communicate with the cardano node on a remote host"
 categories: blockchain
