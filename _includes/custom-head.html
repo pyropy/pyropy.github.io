@@ -1,5 +1,8 @@
 {% if page.tags %}
-<meta name="keywords" content="{{ page.tags | join: ',' | escape }}"/>
+<meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
+{% for tag in page.tags %}
+<meta property="article:tag" content="{{ tag }}">
+{% endfor %}
 {% endif %}
 {% if page.image %}
   <meta property="og:image" content="{{ page.image }}">
