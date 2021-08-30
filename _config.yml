@@ -27,6 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://srdjanstankovic.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  pyropy
 pgp_key: "/assets/srdjan.asc"
+google_analytics: "G-HK0PEGVMN6"
 
 # Build settings
 theme: minima
