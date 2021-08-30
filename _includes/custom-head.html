@@ -4,3 +4,6 @@
 {% if page.image %}
   <meta property="og:image" content="{{ page.image }}">
 {% endif %}
+{% if page.summary %}
+<meta name="description" content="{{ page.summary | escape }}">
+{% endif %}
