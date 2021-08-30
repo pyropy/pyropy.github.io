@@ -35,7 +35,7 @@ In case you don't have this environment variable set, you can do it by running:
 
 {% highlight bash %}
 export CARDANO_NODE_SOCKET_PATH='/path/to/cardano-node/node.socket'
-{% highlight bash %}
+{% endhighlight %}
 
 If you are running a cardano node with Docker you can checkout [my repo][repo] where I have forked cardano-graphql repository and added a Docker container that exposes cardano node socket file via TCP. It's currently on v4.0.0 of cardano-graphql but I might update if there is enough interest for it.
 
