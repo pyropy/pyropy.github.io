@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://srdjanstankovic.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  pyropy
-pgp_key: "https://keys.openpgp.org/vks/v1/by-fingerprint/F26416279117CB1BF388EB5322B7A0ED6056B9DD"
+pgp_key: "/assets/srdjan.asc"
 
 # Build settings
 theme: minima
