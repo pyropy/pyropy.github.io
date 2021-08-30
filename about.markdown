@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-## About
+## About me
 
 I consider myself a motivated software developer with an interest in distributed systems, functional programming and software engineering in general. I am a flexible team player comfortable with adapting to any kind of team dynamic or project requirements. I will learn programming languages for fun.
 
