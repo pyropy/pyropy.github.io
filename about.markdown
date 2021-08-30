@@ -3,7 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-## About me
 
 I consider myself a motivated software developer with an interest in distributed systems, functional programming and software engineering in general. I am a flexible team player comfortable with adapting to any kind of team dynamic or project requirements. I will learn programming languages for fun.
 
@@ -21,5 +20,5 @@ You can find the source code for Jekyll at GitHub:
 
 
 [jekyll-organization]: https://github.com/jekyll
-[email]: stankovic.srdjo@gmail.com
+[email]: mailto:stankovic.srdjo@gmail.com
 [linkedin]: https://www.linkedin.com/in/stankovicsrdjan/
