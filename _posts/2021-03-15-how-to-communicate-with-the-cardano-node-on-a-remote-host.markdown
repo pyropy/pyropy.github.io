@@ -3,6 +3,8 @@ layout: post
 title:  "How to communicate with the cardano node on a remote host"
 author: Srdjan Stankovic 
 date:   2021-08-30 17:00:00 +0100
+tags: [blockchain,cardano,tcp,aws,devops,docker]
+image: "/assets/cardano.jpeg"
 categories: blockchain
 ---
 
