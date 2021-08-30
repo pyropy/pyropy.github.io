@@ -1,9 +1,6 @@
-{% if page.summary %}
-<meta name="description" content="{{ page.summary | escape }}">
-{% endif %}
-{%if page.tags %}
+{% if page.tags %}
 <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
-{%endif %}
+{% endif %}
 {% if page.image %}
   <meta property="og:image" content="{{ page.image }}">
-{% else %}
+{% endif %}
