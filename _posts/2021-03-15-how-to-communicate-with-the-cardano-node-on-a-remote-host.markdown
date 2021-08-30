@@ -53,7 +53,7 @@ If we now set `CARDANO_NODE_SOCKET_PATH` to the destination on our local machine
 
 ## Conclusion
 
-While we're close to smart contracts on the cardano blockchain we still need a way to communicate with our cardano node over the CLI. Our team at [Cardano Blue][cardano-blue] has taken advantage of cardano-cli and made sure trading NFTs is possible even without smart contracts yet available but once they're out I am sure developing applications like this will be much easier
+While we're close to smart contracts on the cardano blockchain we still need a way to communicate with our cardano node over the CLI. Our team at [Cardano Blue][cardano-blue] has taken advantage of cardano-cli and made sure trading NFTs is possible even without smart contracts yet available but once they're out I am sure developing applications like this will be much easier.
 
 [cardano-blue]: http://stage.cardano.blue
 [repo]: https://github.com/pyropy/cardano-graphql
