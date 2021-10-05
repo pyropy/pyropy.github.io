@@ -28,7 +28,7 @@ sudo apt-get install socat
 Now when we have assured that we have required package (socat), to expose our cardano UNIX node socket path we should run following command:
 
 {% highlight bash %}
-socat UNIX-LISTEN:$CARDANO_NODE_SOCKET_PATH,fork,reuseaddr,unlink-early, TCP:127.0.0.1:3333
+socat TCP-LISTEN:3333,fork,reuseaddr, UNIX-CONNECT:$CARDANO_NODE_SOCKET_PATH
 {% endhighlight %}
 
 This should start socat on localhost and expose our cardano node socket file, whose value is set in the `CARDANO_NODE_SOCKET_PATH` environment variable.
