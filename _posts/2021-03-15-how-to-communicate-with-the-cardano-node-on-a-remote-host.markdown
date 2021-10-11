@@ -8,7 +8,7 @@ image: "/assets/cardano.jpeg"
 summary: "Recently, while working on Cardano based NFT Marketplace Cardano Blue, my team and I had to come up with a way for our backend to communicate with the cardano node on a remote host"
 ---
 
-Recently, while working on [Cardano based NFT Marketplace][cardano-blue] (currently running on testnet), my team and I had to come up with a way for our backend to communicate with the cardano node on a remote host.
+Recently, while working on [Cardano based NFT Marketplace][cardano-blue], my team and I had to come up with a way for our backend to communicate with the cardano node on a remote host.
 
 Given that our backend is deployed on AWS Fargate we had two choices:
 - Deploy cardano-node on AWS Fargate and somehow share UNIX socket file with our backend
