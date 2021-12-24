@@ -3,20 +3,11 @@ layout: post
 title: "How to sign and submit cardano-cli transaction using Nami Wallet"
 author: Srdjan Stankovic
 date: 2021-12-24 10:00:00 +0100
-tags:
-  [
-    blockchain,
-    cardano,
-    cardano-cli,
-    nami-wallet,
-    transaction,
-    transation-builder,
-  ]
+tags: [blockchain,cardano,cardano-cli,nami-wallet,transaction,transation-builder]
 image: "/assets/nami.png"
 summary: "Bootstrap your Cardano dApp by signing and submiting transaction built by cardano-cli using Nami wallet."
 ---
 
-## Intro
 
 While working on integrating smart contracts with Nami Wallet many of us have faced obsticles, most of them regarding `cardano-serialization-lib`. Most of the obsticles are due to lack of documentation and examples for this library, so we've decided to go other way around.
 
