@@ -18,11 +18,11 @@ summary: "Bootstrap your Cardano dApp by signing and submiting transaction built
 
 ## Intro
 
-While working on integrating smart contracts with Nami Wallet I've faced many obsticles, most of them regarding `cardano-serialization-lib`. Most of the obsticles are due to lack of documentation and examples for this library, so we've decided to go other way around.
+While working on integrating smart contracts with Nami Wallet many of us have faced obsticles, most of them regarding `cardano-serialization-lib`. Most of the obsticles are due to lack of documentation and examples for this library, so we've decided to go other way around.
 
 Building transactions using `cardano-cli` is pretty much easiest way to get started as there's a lot of examples and most of the developers working with Cardano ecosystem first get familiar with using `cardano-cli`.
 
-And then when we finaly tought we've solved our issue, new ones appeard.
+So many of us have tried to generate transactions using the `cardano-cli` and signing with the Nami wallet thinking that our problems will be solved, and then when we all finaly tought we've solved our issues, new ones appeard.
 
 ## Issues
 
