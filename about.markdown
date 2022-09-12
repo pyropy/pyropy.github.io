@@ -12,7 +12,8 @@ Some of the technologies and tools that I have been using lately are:
 
 * Golang
 * TypeScript/JavaScript
-* IPFS
+* IPFS/Filecoin
+* Smart contracts
 * Relational databases like PostgreSQL
 * NoSQL databases like LevelDB, Redis, etc.
 
@@ -25,18 +26,5 @@ I also try to contribute as much as possible to open-source. Some of my most pop
 
 If you are interested about rest of my projects, hop to my [GitHub](https://github.com/pyropy) profile.
 
-### Theme
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
 [email]: mailto:stankovic.srdjo@gmail.com
 [linkedin]: https://www.linkedin.com/in/stankovicsrdjan/
