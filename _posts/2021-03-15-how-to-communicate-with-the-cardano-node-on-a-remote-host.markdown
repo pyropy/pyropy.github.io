@@ -5,10 +5,10 @@ author: Srdjan Stankovic
 date:   2021-08-30 17:00:00 +0100
 tags: [blockchain,cardano,tcp,aws,devops,docker,nft,marketplace]
 image: "/assets/cardano.jpeg"
-summary: "Recently, while working on Cardano based NFT Marketplace Cardano Blue, my team and I had to come up with a way for our backend to communicate with the cardano node on a remote host"
+summary: "Recently, while working on Cardano based NFT Marketplace, my team and I had to come up with a way for our backend to communicate with the cardano node on a remote host"
 ---
 
-Recently, while working on [Cardano based NFT Marketplace][cardano-blue], my team and I had to come up with a way for our backend to communicate with the cardano node on a remote host.
+Recently, while working on Cardano based NFT Marketplace, my team and I had to come up with a way for our backend to communicate with the cardano node on a remote host.
 
 Given that our backend is deployed on AWS Fargate we had two choices:
 - Deploy cardano-node on AWS Fargate and somehow share UNIX socket file with our backend
@@ -53,8 +53,7 @@ If we now set `CARDANO_NODE_SOCKET_PATH` to the destination on our local machine
 
 ## Conclusion
 
-While we're close to smart contracts on the cardano blockchain we still need a way to communicate with our cardano node over the CLI. Our team at [Cardano Blue][cardano-blue] has taken advantage of cardano-cli and made sure trading NFTs is possible even without smart contracts yet available but once they're out I am sure developing applications like this will be much easier.
+While we're close to smart contracts on the cardano blockchain we still need a way to communicate with our cardano node over the CLI. Our team has taken advantage of cardano-cli and made sure trading NFTs is possible even without smart contracts yet available but once they're out I am sure developing applications like this will be much easier.
 
-[cardano-blue]: https://cardano.blue
 [repo]: https://github.com/pyropy/cardano-graphql
 [socat-post]: https://www.redhat.com/sysadmin/getting-started-socat
